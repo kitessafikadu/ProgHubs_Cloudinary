@@ -2,8 +2,7 @@ import ImageUpload from "./components/ImageUpload";
 
 function App() {
   return (
-    <div>
-      <h1>Image Upload</h1>
+    <div className="flex items-center justify-center h-screen">
       <ImageUpload />
     </div>
   );
